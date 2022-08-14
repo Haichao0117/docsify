@@ -4,6 +4,6 @@
 
 # 这是一个封面
 
-![logo](_media/icon.SVG ':size=20%')
+![logo](_media/icon.svg ':size=20%')
 
 # 
