@@ -12,13 +12,30 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: '',
+      name: '个人知识库',
+      //侧边栏
       loadSidebar: true,
-      coverpage: true
+      //封面
+      coverpage: true,
+      //git
+      repo: 'https://github.com/Haichao0117',
+      //最大支持渲染标题层级
+      maxLevel: 4,
+      //侧边栏logo
+      logo: '/_media/icon.svg',
+
+      copyCode: {
+        buttonText : '复制',
+        errorText  : 'Error',
+        successText: '已复制'
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- emoji -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!-- Click to copy -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 </body>
 </html>
